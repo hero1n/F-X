@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E83A4E6B1B1D37FB00A09D36 /* SecondGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E83A4E6A1B1D37FB00A09D36 /* SecondGameScene.m */; };
 		E843FA881AFC4FB00059A6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E843FA871AFC4FB00059A6A4 /* main.m */; };
 		E843FA8B1AFC4FB00059A6A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E843FA8A1AFC4FB00059A6A4 /* AppDelegate.m */; };
 		E843FA8E1AFC4FB00059A6A4 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E843FA8D1AFC4FB00059A6A4 /* GameScene.m */; };
@@ -16,6 +17,14 @@
 		E843FA981AFC4FB00059A6A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E843FA971AFC4FB00059A6A4 /* Images.xcassets */; };
 		E843FA9B1AFC4FB00059A6A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E843FA991AFC4FB00059A6A4 /* LaunchScreen.xib */; };
 		E843FAA71AFC4FB00059A6A4 /* WeDontEvenKnowThatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E843FAA61AFC4FB00059A6A4 /* WeDontEvenKnowThatTests.m */; };
+		E89EAB491B33B496008B4518 /* logo-launch.png in Resources */ = {isa = PBXBuildFile; fileRef = E89EAB481B33B496008B4518 /* logo-launch.png */; };
+		E89EAB4C1B33BA29008B4518 /* ThirdGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E89EAB4B1B33BA29008B4518 /* ThirdGameScene.m */; };
+		E89EAB4F1B38E03E008B4518 /* SplashScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E89EAB4E1B38E03E008B4518 /* SplashScene.m */; };
+		E89EAB511B38E0E7008B4518 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E89EAB501B38E0E7008B4518 /* splash.png */; };
+		E89EAB541B3B7D53008B4518 /* FourthGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E89EAB531B3B7D53008B4518 /* FourthGameScene.m */; };
+		E89EAB561B3CC6A6008B4518 /* game3_background.png in Resources */ = {isa = PBXBuildFile; fileRef = E89EAB551B3CC6A6008B4518 /* game3_background.png */; };
+		E89EAB581B3CC8F9008B4518 /* game3_car.png in Resources */ = {isa = PBXBuildFile; fileRef = E89EAB571B3CC8F9008B4518 /* game3_car.png */; };
+		E8BBE4911B2A724100450D83 /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BBE4901B2A724100450D83 /* MenuScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E843FA821AFC4FB00059A6A4 /* WeDontEvenKnowThat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeDontEvenKnowThat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83A4E691B1D37FB00A09D36 /* SecondGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondGameScene.h; sourceTree = "<group>"; };
+		E83A4E6A1B1D37FB00A09D36 /* SecondGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondGameScene.m; sourceTree = "<group>"; };
+		E843FA821AFC4FB00059A6A4 /* F!X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F!X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E843FA861AFC4FB00059A6A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E843FA871AFC4FB00059A6A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E843FA891AFC4FB00059A6A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,9 +53,21 @@
 		E843FA951AFC4FB00059A6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E843FA971AFC4FB00059A6A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E843FA9A1AFC4FB00059A6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E843FAA01AFC4FB00059A6A4 /* WeDontEvenKnowThatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeDontEvenKnowThatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E843FAA01AFC4FB00059A6A4 /* F!XTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "F!XTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E843FAA51AFC4FB00059A6A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E843FAA61AFC4FB00059A6A4 /* WeDontEvenKnowThatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeDontEvenKnowThatTests.m; sourceTree = "<group>"; };
+		E89EAB481B33B496008B4518 /* logo-launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-launch.png"; path = "Images/logo-launch.png"; sourceTree = SOURCE_ROOT; };
+		E89EAB4A1B33BA29008B4518 /* ThirdGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdGameScene.h; sourceTree = "<group>"; };
+		E89EAB4B1B33BA29008B4518 /* ThirdGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdGameScene.m; sourceTree = "<group>"; };
+		E89EAB4D1B38E03E008B4518 /* SplashScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScene.h; sourceTree = "<group>"; };
+		E89EAB4E1B38E03E008B4518 /* SplashScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScene.m; sourceTree = "<group>"; };
+		E89EAB501B38E0E7008B4518 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = Images/splash.png; sourceTree = SOURCE_ROOT; };
+		E89EAB521B3B7D53008B4518 /* FourthGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthGameScene.h; sourceTree = "<group>"; };
+		E89EAB531B3B7D53008B4518 /* FourthGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthGameScene.m; sourceTree = "<group>"; };
+		E89EAB551B3CC6A6008B4518 /* game3_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = game3_background.png; path = Images/game3_background.png; sourceTree = SOURCE_ROOT; };
+		E89EAB571B3CC8F9008B4518 /* game3_car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = game3_car.png; path = Images/game3_car.png; sourceTree = SOURCE_ROOT; };
+		E8BBE48F1B2A724100450D83 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
+		E8BBE4901B2A724100450D83 /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +91,8 @@
 		E843FA791AFC4FB00059A6A4 = {
 			isa = PBXGroup;
 			children = (
-				E843FA841AFC4FB00059A6A4 /* WeDontEvenKnowThat */,
-				E843FAA31AFC4FB00059A6A4 /* WeDontEvenKnowThatTests */,
+				E843FA841AFC4FB00059A6A4 /* F!X */,
+				E843FAA31AFC4FB00059A6A4 /* F!XTests */,
 				E843FA831AFC4FB00059A6A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,20 +100,30 @@
 		E843FA831AFC4FB00059A6A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E843FA821AFC4FB00059A6A4 /* WeDontEvenKnowThat.app */,
-				E843FAA01AFC4FB00059A6A4 /* WeDontEvenKnowThatTests.xctest */,
+				E843FA821AFC4FB00059A6A4 /* F!X.app */,
+				E843FAA01AFC4FB00059A6A4 /* F!XTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E843FA841AFC4FB00059A6A4 /* WeDontEvenKnowThat */ = {
+		E843FA841AFC4FB00059A6A4 /* F!X */ = {
 			isa = PBXGroup;
 			children = (
 				E843FA891AFC4FB00059A6A4 /* AppDelegate.h */,
 				E843FA8A1AFC4FB00059A6A4 /* AppDelegate.m */,
+				E89EAB4D1B38E03E008B4518 /* SplashScene.h */,
+				E89EAB4E1B38E03E008B4518 /* SplashScene.m */,
+				E8BBE48F1B2A724100450D83 /* MenuScene.h */,
+				E8BBE4901B2A724100450D83 /* MenuScene.m */,
 				E843FA8C1AFC4FB00059A6A4 /* GameScene.h */,
 				E843FA8D1AFC4FB00059A6A4 /* GameScene.m */,
 				E843FA8F1AFC4FB00059A6A4 /* GameScene.sks */,
+				E83A4E691B1D37FB00A09D36 /* SecondGameScene.h */,
+				E83A4E6A1B1D37FB00A09D36 /* SecondGameScene.m */,
+				E89EAB4A1B33BA29008B4518 /* ThirdGameScene.h */,
+				E89EAB4B1B33BA29008B4518 /* ThirdGameScene.m */,
+				E89EAB521B3B7D53008B4518 /* FourthGameScene.h */,
+				E89EAB531B3B7D53008B4518 /* FourthGameScene.m */,
 				E843FA911AFC4FB00059A6A4 /* GameViewController.h */,
 				E843FA921AFC4FB00059A6A4 /* GameViewController.m */,
 				E843FA941AFC4FB00059A6A4 /* Main.storyboard */,
@@ -98,24 +131,27 @@
 				E843FA991AFC4FB00059A6A4 /* LaunchScreen.xib */,
 				E843FA851AFC4FB00059A6A4 /* Supporting Files */,
 			);
+			name = "F!X";
 			path = WeDontEvenKnowThat;
 			sourceTree = "<group>";
 		};
 		E843FA851AFC4FB00059A6A4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E89EAB3F1B33B077008B4518 /* Images */,
 				E843FA861AFC4FB00059A6A4 /* Info.plist */,
 				E843FA871AFC4FB00059A6A4 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E843FAA31AFC4FB00059A6A4 /* WeDontEvenKnowThatTests */ = {
+		E843FAA31AFC4FB00059A6A4 /* F!XTests */ = {
 			isa = PBXGroup;
 			children = (
 				E843FAA61AFC4FB00059A6A4 /* WeDontEvenKnowThatTests.m */,
 				E843FAA41AFC4FB00059A6A4 /* Supporting Files */,
 			);
+			name = "F!XTests";
 			path = WeDontEvenKnowThatTests;
 			sourceTree = "<group>";
 		};
@@ -127,12 +163,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E89EAB3F1B33B077008B4518 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E89EAB571B3CC8F9008B4518 /* game3_car.png */,
+				E89EAB551B3CC6A6008B4518 /* game3_background.png */,
+				E89EAB501B38E0E7008B4518 /* splash.png */,
+				E89EAB481B33B496008B4518 /* logo-launch.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E843FA811AFC4FB00059A6A4 /* WeDontEvenKnowThat */ = {
+		E843FA811AFC4FB00059A6A4 /* F!X */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E843FAAA1AFC4FB00059A6A4 /* Build configuration list for PBXNativeTarget "WeDontEvenKnowThat" */;
+			buildConfigurationList = E843FAAA1AFC4FB00059A6A4 /* Build configuration list for PBXNativeTarget "F!X" */;
 			buildPhases = (
 				E843FA7E1AFC4FB00059A6A4 /* Sources */,
 				E843FA7F1AFC4FB00059A6A4 /* Frameworks */,
@@ -142,14 +189,14 @@
 			);
 			dependencies = (
 			);
-			name = WeDontEvenKnowThat;
+			name = "F!X";
 			productName = WeDontEvenKnowThat;
-			productReference = E843FA821AFC4FB00059A6A4 /* WeDontEvenKnowThat.app */;
+			productReference = E843FA821AFC4FB00059A6A4 /* F!X.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E843FA9F1AFC4FB00059A6A4 /* WeDontEvenKnowThatTests */ = {
+		E843FA9F1AFC4FB00059A6A4 /* F!XTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E843FAAD1AFC4FB00059A6A4 /* Build configuration list for PBXNativeTarget "WeDontEvenKnowThatTests" */;
+			buildConfigurationList = E843FAAD1AFC4FB00059A6A4 /* Build configuration list for PBXNativeTarget "F!XTests" */;
 			buildPhases = (
 				E843FA9C1AFC4FB00059A6A4 /* Sources */,
 				E843FA9D1AFC4FB00059A6A4 /* Frameworks */,
@@ -160,9 +207,9 @@
 			dependencies = (
 				E843FAA21AFC4FB00059A6A4 /* PBXTargetDependency */,
 			);
-			name = WeDontEvenKnowThatTests;
+			name = "F!XTests";
 			productName = WeDontEvenKnowThatTests;
-			productReference = E843FAA01AFC4FB00059A6A4 /* WeDontEvenKnowThatTests.xctest */;
+			productReference = E843FAA01AFC4FB00059A6A4 /* F!XTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -183,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E843FA7D1AFC4FB00059A6A4 /* Build configuration list for PBXProject "WeDontEvenKnowThat" */;
+			buildConfigurationList = E843FA7D1AFC4FB00059A6A4 /* Build configuration list for PBXProject "F!X" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -196,8 +243,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E843FA811AFC4FB00059A6A4 /* WeDontEvenKnowThat */,
-				E843FA9F1AFC4FB00059A6A4 /* WeDontEvenKnowThatTests */,
+				E843FA811AFC4FB00059A6A4 /* F!X */,
+				E843FA9F1AFC4FB00059A6A4 /* F!XTests */,
 			);
 		};
 /* End PBXProject section */
@@ -209,7 +256,11 @@
 			files = (
 				E843FA9B1AFC4FB00059A6A4 /* LaunchScreen.xib in Resources */,
 				E843FA981AFC4FB00059A6A4 /* Images.xcassets in Resources */,
+				E89EAB581B3CC8F9008B4518 /* game3_car.png in Resources */,
+				E89EAB561B3CC6A6008B4518 /* game3_background.png in Resources */,
 				E843FA901AFC4FB00059A6A4 /* GameScene.sks in Resources */,
+				E89EAB491B33B496008B4518 /* logo-launch.png in Resources */,
+				E89EAB511B38E0E7008B4518 /* splash.png in Resources */,
 				E843FA961AFC4FB00059A6A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E843FA931AFC4FB00059A6A4 /* GameViewController.m in Sources */,
+				E89EAB4F1B38E03E008B4518 /* SplashScene.m in Sources */,
 				E843FA8B1AFC4FB00059A6A4 /* AppDelegate.m in Sources */,
+				E83A4E6B1B1D37FB00A09D36 /* SecondGameScene.m in Sources */,
+				E89EAB541B3B7D53008B4518 /* FourthGameScene.m in Sources */,
+				E89EAB4C1B33BA29008B4518 /* ThirdGameScene.m in Sources */,
+				E8BBE4911B2A724100450D83 /* MenuScene.m in Sources */,
 				E843FA8E1AFC4FB00059A6A4 /* GameScene.m in Sources */,
 				E843FA881AFC4FB00059A6A4 /* main.m in Sources */,
 			);
@@ -248,7 +304,7 @@
 /* Begin PBXTargetDependency section */
 		E843FAA21AFC4FB00059A6A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E843FA811AFC4FB00059A6A4 /* WeDontEvenKnowThat */;
+			target = E843FA811AFC4FB00059A6A4 /* F!X */;
 			targetProxy = E843FAA11AFC4FB00059A6A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -358,8 +414,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeDontEvenKnowThat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "F!X";
 			};
 			name = Debug;
 		};
@@ -368,8 +425,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeDontEvenKnowThat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "F!X";
 			};
 			name = Release;
 		};
@@ -387,7 +445,7 @@
 				);
 				INFOPLIST_FILE = WeDontEvenKnowThatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "F!XTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeDontEvenKnowThat.app/WeDontEvenKnowThat";
 			};
 			name = Debug;
@@ -402,7 +460,7 @@
 				);
 				INFOPLIST_FILE = WeDontEvenKnowThatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "F!XTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeDontEvenKnowThat.app/WeDontEvenKnowThat";
 			};
 			name = Release;
@@ -410,7 +468,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E843FA7D1AFC4FB00059A6A4 /* Build configuration list for PBXProject "WeDontEvenKnowThat" */ = {
+		E843FA7D1AFC4FB00059A6A4 /* Build configuration list for PBXProject "F!X" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E843FAA81AFC4FB00059A6A4 /* Debug */,
@@ -419,21 +477,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E843FAAA1AFC4FB00059A6A4 /* Build configuration list for PBXNativeTarget "WeDontEvenKnowThat" */ = {
+		E843FAAA1AFC4FB00059A6A4 /* Build configuration list for PBXNativeTarget "F!X" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E843FAAB1AFC4FB00059A6A4 /* Debug */,
 				E843FAAC1AFC4FB00059A6A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E843FAAD1AFC4FB00059A6A4 /* Build configuration list for PBXNativeTarget "WeDontEvenKnowThatTests" */ = {
+		E843FAAD1AFC4FB00059A6A4 /* Build configuration list for PBXNativeTarget "F!XTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E843FAAE1AFC4FB00059A6A4 /* Debug */,
 				E843FAAF1AFC4FB00059A6A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,11 @@
 
 #import "GameViewController.h"
 #import "GameScene.h"
+#import "SecondGameScene.h"
+#import "ThirdGameScene.h"
+#import "FourthGameScene.h"
+#import "MenuScene.h"
+#import "SplashScene.h"
 
 @implementation SKScene (Unarchive)
 
@@ -40,12 +45,28 @@
     skView.showsNodeCount = YES;
     /* Sprite Kit applies additional optimizations to improve rendering performance */
     skView.ignoresSiblingOrder = YES;
+
+    SplashScene *scene = [SplashScene unarchiveFromFile:@"GameScene"];
+//    scene.scaleMode = SKSceneScaleModeAspectFill;
+//    [skView presentScene:scene];
     
-    // Create and configure the scene.
-    GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
+//    // Create and configure the scene.
+//    MenuScene *scene = [MenuScene unarchiveFromFile:@"GameScene"];
+//    scene.scaleMode = SKSceneScaleModeAspectFill;
+//    
+//    // Present the scene.
+//    [skView presentScene:scene];
+    
+//    GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
+//    [skView presentScene:scene];
+    
+//    ThirdGameScene *scene = [ThirdGameScene unarchiveFromFile:@"GameScene"];
+//    scene.scaleMode = SKSceneScaleModeAspectFill;
+//    [skView presentScene:scene];
+    
+//    FourthGameScene *scene = [FourthGameScene unarchiveFromFile:@"GameScene"];
+    
     scene.scaleMode = SKSceneScaleModeAspectFill;
-    
-    // Present the scene.
     [skView presentScene:scene];
 }
 
